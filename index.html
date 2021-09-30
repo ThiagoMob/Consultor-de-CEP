@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<style>
+    body{
+        background: rgb(26, 27, 73);
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+    }
+
+    #app{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    input, button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 5px;
+        border: none;
+    }
+    button{
+        background: rgb(34, 34, 226);
+        border: none;
+        color: #fff;
+    }
+
+    main{
+        border-bottom: 1px solid #fff;
+        text-align: center;
+    }
+</style>
+<body>
+    <div id="app">
+        <form action="">
+            <input type="text" placeholder="Digite o CEP">
+            <button>Consultar CEP</button>
+        </form>
+        <main></main>
+        </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
